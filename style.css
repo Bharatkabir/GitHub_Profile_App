@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  text-transform: capitalize;
+  text-align: center;
+}
+.main {
+  margin-top: 40px;
+}
+.card {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 1px rgba(211, 211, 0.486) solid;
+  margin: 10px;
+  transition: 0.6s;
+  width: 50%;
+}
+.card:hover {
+  transition: 0.6s;
+  box-shadow: 5px 5px 20px lightgray;
+}
+.card img {
+  transition: 0.2s;
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+.card:hover img {
+  transition: 0.2s;
+  outline: 4px solid lightblue;
+}
+.card p {
+  color: gray;
+}
+h3 {
+  margin-top: 8px;
+  font-weight: 700;
+  font-family: cursive;
+  color: goldenrod;
+}
+.social-media a i {
+  color: grey;
+  font-size: large;
+  transition: 0.5s;
+  padding: 12px 3px;
+}
+.social-media a i:hover {
+  transition: 0.5s;
+  transform: scale3d(2);
+  color: #0d6efd;
+}
+span {
+  color: grey;
+  font-size: large;
+  transition: 0.5s;
+  padding: 10px 5px;
+}
+span:hover {
+  color: red;
+}
+span i:hover {
+  color: black;
+}
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+h1 {
+  margin: 20px 0;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+p:hover {
+  color: black;
+}
+
+#fol {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.repo-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a {
+  color: rgba(255, 255, 255, 0.94);
+  text-decoration: none;
+  margin: 3px;
+  background-color: #f48fb1;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.input {
+  width: 100%;
+  max-width: 431px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+  margin-top: 15px;
+}
+
+.input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border: 2px solid grey;
+}

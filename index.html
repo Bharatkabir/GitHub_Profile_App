@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub_Profile_App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <h3>Github User Search App</h3>
+    <form id="form" onsubmit="return formSubmit();">
+      <input
+        class="input"
+        name="text"
+        type="text"
+        placeholder="Search a GitHub User Here.. "
+      />
+    </form>
+    <!-- Container -->
+    <div class="main-container">
+      <div class="card">
+        <!-- Profile Image -->
+        <img src="avatar-3637425_1280.png" alt="" />
+        <!-- Profie Deatile -->
+        <h4 id="userName">Demo</h4>
+        <p id="bio">Web Developer</p>
+        <i id="loc"></i>
+        <div id="fol">
+          <p id="follow"></p>
+          <p id="following"></p>
+        </div>
+        <h4 class="repo"></h4>
+        <ul class="repo-list"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
